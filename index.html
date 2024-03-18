@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase Tutorial</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f5f5f5;
+      }
+
+      #details {
+        background-color: #eaeaea;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      h4 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="number"],
+      button {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 4px;
+      }
+
+      button {
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="details">
+      <h1>Enter details</h1>
+
+      <h4>ID</h4>
+      <input id="id" type="text" />
+
+      <h4>Name</h4>
+      <input id="name" type="text" />
+
+      <h4>Mobile Number</h4>
+      <input id="mobile" type="number" />
+
+      <br />
+      <br />
+      <center>
+        <button id="insert">INSERT</button>
+        <br />
+        <a href="/users.html"><button id="insert">View</button></a>
+      </center>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

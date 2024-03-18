@@ -1,0 +1,18 @@
+# Firebase CRUD Operations
+
+This project demonstrates basic CRUD (Create, Read, Update, Delete) operations using Firebase Realtime Database. It includes a simple web interface to insert and display user data.
+
+## Project Description
+
+The project consists of HTML, JavaScript, and Firebase configuration files. The HTML files (`index.html` and `users.html`) provide the user interface for inserting and displaying user data. The JavaScript files (`index.js` and `users.js`) handle the interaction with Firebase Realtime Database.
+
+## Steps to Run the Project
+
+1. Clone the repository to your local machine:
+   `git clone https://github.com/your-username/firebase-crud.git`
+2. Set up Firebase configuration:
+   Copy firebase-config.js.template to firebase-config.js.
+   `cp firebase-config.js.template firebase-config.js`
+
+3. Replace the placeholder values in firebase-config.js with your Firebase project configuration obtained from the Firebase console.
+4. Open index.html in a web browser .
