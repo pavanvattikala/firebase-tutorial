@@ -9,7 +9,7 @@ The project consists of HTML, JavaScript, and Firebase configuration files. The 
 ## Steps to Run the Project
 
 1. Clone the repository to your local machine:
-   `git clone https://github.com/your-username/firebase-crud.git`
+   `git clone https://github.com/pavanvattikala/firebase-tutorial.git`
 2. Set up Firebase configuration:
    Copy firebase-config.js.template to firebase-config.js.
    `cp firebase-config.js.template firebase-config.js`
